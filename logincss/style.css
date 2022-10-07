@@ -1,0 +1,73 @@
+html,
+body {
+  height: 100%;
+  /* background-color: #222d32 !important; */
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 50px;
+  margin-top: -100px;
+}
+
+.border {
+  padding: 30px;
+  border-radius: 15px;
+}
+
+input[type="text"],
+input[type="password"] {
+  background-color: #1a2226;
+  color: #fff;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.color {
+  color: black;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  color: rgba(190, 186, 186, 0.596);
+}
+
+/* animation */
+
+.wrap {
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.typing {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 1px solid black;
+  padding-right: 5px;
+  animation: typing 2s steps(20) infinite alternate, blink 0.7s infinite;
+}
+
+@keyframes typing {
+  0% {
+    width: 0%;
+    visibility: hidden;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+  100% {
+    border-color: black;
+  }
+}
